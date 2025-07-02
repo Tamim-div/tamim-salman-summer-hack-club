@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://rlr5oc1j20my"]
+
+[ext_resource type="Script" path="res://scenes/scene.gd" id="1_a1m88"]
+
+[node name="scene" type="Node"]
+script = ExtResource("1_a1m88")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 390.0
+offset_bottom = 193.0
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
